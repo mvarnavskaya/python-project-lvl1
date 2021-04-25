@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "3.6.8"
+version = "3.6"
 description = "hexlet-code"
 authors = ["Your Name <you@example.com>"]
 packages = [
@@ -8,7 +8,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "3.6.8"
+python = "3.6"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
