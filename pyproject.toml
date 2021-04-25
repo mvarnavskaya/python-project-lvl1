@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "3.6.8"
+version = "0.1.1"
 description = "hexlet-code"
 authors = ["Your Name <you@example.com>"]
 packages = [
