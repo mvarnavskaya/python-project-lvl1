@@ -7,7 +7,7 @@ WELCOME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(num):
     if num < 2:
-        return 'yes'
+        return 'no'
     i = 2
     while i <= num / 2:
         if num % i == 0:
