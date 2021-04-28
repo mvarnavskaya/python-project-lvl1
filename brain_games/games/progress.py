@@ -20,6 +20,7 @@ def generation():
                    for i in range(0, len_progress - 1)]
     secret_key = randint(0, len_progress - 1)
     print(secret_key)
+    print(len_progress)
     correct_answer = progression[secret_key]
     progression[secret_key] = '..'
     for i, _ in enumerate(progression):
