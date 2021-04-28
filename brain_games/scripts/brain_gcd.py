@@ -3,7 +3,7 @@ from brain_games import games, go
 
 
 def main():
-    go.engine(games.gsd)
+    go.engine(games.gcd)
 
 
 if __name__ == '__main__':
