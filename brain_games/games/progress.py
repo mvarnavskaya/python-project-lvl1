@@ -14,10 +14,11 @@ def gsd(a, b):
 
 def generation():
     start_progress = randint(0, 10)
-    len_progress = randint(5, LEN_PROGRESS_MAX)
+    len_progress = 5#randint(5, LEN_PROGRESS_MAX)
     step_progress = randint(0, 10)
     progression = [start_progress + i * step_progress
-                   for i in range(0, len_progress - 1)]
+                   for i in range(0, len_progress)]
+    print(progression)
     secret_key = randint(0, len_progress - 1)
     print(secret_key)
     print(len_progress)
