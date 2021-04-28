@@ -5,6 +5,7 @@ from random import randint
 WELCOME = 'What number is missing in the progression?'
 LEN_PROGRESS_MAX = 10
 
+
 def gsd(a, b):
     if b == 0:
         return a
