@@ -3,7 +3,7 @@ from random import randint
 
 
 WELCOME = 'What number is missing in the progression?'
-
+LEN_PROGRESS_MAX = 10
 
 def gsd(a, b):
     if b == 0:
@@ -13,7 +13,7 @@ def gsd(a, b):
 
 def generation():
     start_progress = randint(0, 10)
-    len_progress = randint(6, 10)
+    len_progress = randint(5, LEN_PROGRESS_MAX - 1)
     step_progress = randint(0, 10)
     progression = [start_progress + i * step_progress
                    for i in range(0, len_progress - 1)]
