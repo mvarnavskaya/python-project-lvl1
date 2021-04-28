@@ -13,12 +13,12 @@ def gsd(a, b):
 
 def generation():
     start_progress = randint(0, 10)
-    len_progress = randint(5, LEN_PROGRESS_MAX - 1)
+    len_progress = randint(5, LEN_PROGRESS_MAX)
     step_progress = randint(0, 10)
     progression = [start_progress + i * step_progress
                    for i in range(0, len_progress - 1)]
     secret_key = randint(0, len_progress - 1)
-    correct_answer = progression[secret_key - 1]
+    correct_answer = progression[secret_key]
     progression[secret_key] = '..'
     for i, _ in enumerate(progression):
         if i < len_progress - 1:
