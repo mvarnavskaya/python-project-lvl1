@@ -18,7 +18,7 @@ def generation():
     progression = [start_progress + i * step_progress
                    for i in range(0, len_progress - 1)]
     secret_key = randint(0, len_progress - 1)
-    correct_answer = progression[secret_key]
+    correct_answer = progression[secret_key - 1]
     progression[secret_key] = '..'
     for i, _ in enumerate(progression):
         if i < len_progress - 1:
